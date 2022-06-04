@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Wordle-game/static/css/main.a6000d67.css",
-    "main.js": "/Wordle-game/static/js/main.38aab660.js",
+    "main.js": "/Wordle-game/static/js/main.b34e993a.js",
     "static/media/glossary.txt": "/Wordle-game/static/media/glossary.3f09307fddddfd5f0591.txt",
     "index.html": "/Wordle-game/index.html",
     "main.a6000d67.css.map": "/Wordle-game/static/css/main.a6000d67.css.map",
-    "main.38aab660.js.map": "/Wordle-game/static/js/main.38aab660.js.map"
+    "main.b34e993a.js.map": "/Wordle-game/static/js/main.b34e993a.js.map"
   },
   "entrypoints": [
     "static/css/main.a6000d67.css",
-    "static/js/main.38aab660.js"
+    "static/js/main.b34e993a.js"
   ]
 }
