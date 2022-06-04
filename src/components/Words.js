@@ -15,11 +15,11 @@ export const generateWordSet = async () => {
   await fetch(glossary)
     .then((response) => response.text())
     .then((results) => {
-      wordArr = results.split("\r\n");
+      wordArr = results.split(/\r?\n/);
       wordSet = new Set(wordArr);
       const index = Math.floor(Math.random() * wordArr.length);
       rightWord = wordArr[index].toUpperCase();
     });
-
+  console.log(rightWord);
   return { wordSet, rightWord };
 };

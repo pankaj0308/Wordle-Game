@@ -44,7 +44,7 @@ const App = () => {
   //pressing Enter or Clicking
   const onEnter = () => {
     if (currAttempt.letterPos !== 5) return;
-    console.log(correctWord);
+
     let currWord = "";
     for (let i = 0; i < 5; i++) {
       currWord += board[currAttempt.attempt][i];
